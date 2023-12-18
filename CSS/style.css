@@ -1,0 +1,111 @@
+body{
+    background-color: lightcyan;
+    color:black;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding:10px;
+    box-sizing: border-box;
+
+}
+.Form h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+.Form{
+    background-color: transparent;
+    color:black;
+    font-size: 20px;
+    border:100px;
+    
+    font-weight: 600;
+    width:1300px;
+    height: 800px;
+    align-items: center ;
+        display:flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    position: relative;
+    text-transform: capitalize;
+    padding:    20px;
+    margin: 12px;
+}
+
+.s1,.s2,.s3{
+    width:900px;
+    height: 10px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    text-transform: capitalize;
+    align-items: center;
+    position: relative;
+    padding:12px;
+    margin: 10px;
+
+}
+
+.s4{
+    width:900px;
+    height: 20px;
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    text-transform: capitalize;
+    align-items: center;
+    padding:10px;
+    margin:10px;
+}
+
+input[type=text],label,select{
+   /* width:400px;
+    height: 10px;
+    display: inline;
+    position: relative;
+    text-transform: capitalize;
+    padding:12px;
+    margin: 10px;
+    border:100px;
+    position: relative;*/
+
+    width:400px;
+    height: 10px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    text-transform: capitalize;
+    padding:12px;
+    margin: 10px;
+    border:100px;
+}
+.button{
+    width:300px;
+    height: 40px;
+    padding:12px;
+    margin: 10px;
+    display: block;
+    position: relative;
+    text-align: center;
+    border:1px saddlebrown;
+    color:black;
+    background-color: brown;
+}
+.button:hover{
+    cursor: pointer;
+}
+/*label{
+    width:300px;
+    height: 10px;
+    display: inline;
+    position: relative;
+    padding:14px;
+    margin: 10px;
+    border:100px;
+}*/
